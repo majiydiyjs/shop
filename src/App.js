@@ -12,6 +12,7 @@ import Login from './components/Login/Login';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import Cart from './components/Cart/Cart';
+import Checkout from './components/Checkout/Checkout';
 
 const App = () => {
   return (
@@ -20,12 +21,13 @@ const App = () => {
        <BrowserRouter>
       <Header/>
         <Routes>
-            <Route path='/' element={<Header/>}/>
+            <Route path='/' element={<Home/>}/>
             <Route path='/faq' element={<Faq/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/login' element={<Login/>}/> 
             <Route path='/cart' element={<Cart/>}/> 
+            <Route path='/checkout' element={<Checkout/>}/>
               
         </Routes>
       </BrowserRouter>
