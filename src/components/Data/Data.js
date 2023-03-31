@@ -11,6 +11,7 @@ const Data = {
             img: img1,
             title: 'Green Runner',
             desc: '',
+            category: 'Running',
             price: 86,
         },
         {
@@ -18,6 +19,7 @@ const Data = {
             img: img2,
             title: 'Oxford Shoe',
             desc: '',
+            category: 'Classic',
             price: 199,
         },
         {
@@ -25,6 +27,7 @@ const Data = {
             img: img3,
             title: 'Black Shoe',
             desc: '',
+            category: 'Jordan',
             price: 92,
         },
     ],
